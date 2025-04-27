@@ -5,10 +5,10 @@
 //return reversedstring
 
 
+
+
+
 function reverseString(str) {
-  if(str == []){
-    return
-  }
   let reversedstring = []
   for (let i = str.length + 1; i > -1; i--){
     reversedstring.push(str[i])
